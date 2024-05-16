@@ -1,0 +1,257 @@
+*{
+    margin: 0px;
+}
+
+header{
+    width: 100%;
+    height: 40px;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+}
+
+#headerContainer{
+    display: flex;
+    width: 90%;
+}
+
+#headerLeft{
+    display: flex;
+    height: 40px;
+    width: 70%;
+    justify-content: flex-start;
+}
+
+#headerRigth{
+    display: flex;
+    height: 40px;
+    width: 30%;
+    justify-content: flex-end;
+}
+
+#hamburgerMenu img{
+    width: 24px;
+    height: 24px;
+}
+
+#hamburgerMenu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 24px;
+    margin-right: 24px;
+}
+#logo img{
+    width: 38px;
+    height: 38px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.headerMenuItem a{
+    color: #E6E6E6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    /*font-family: cnn_sans_display, helveticaneue, Helvetica, Arial, Utkal, sans-serif;*/
+}
+
+.headerMenuItem{
+    display: flex;
+    align-items: center;
+    padding: 0px 12px;
+}
+
+.headerRigthItem a{
+    color: #E6E6E6;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.headerRigthItem{
+    display: flex;
+    align-items: center;
+    margin-right: 24px;
+}
+
+#searchIcon img{
+    width: 38px;
+    height: 38px;
+}
+#searchIcon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 40px;
+}
+
+#divSignIn{
+    display: flex;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+#signIn{
+    border: #E6E6E6 1px solid;
+    border-radius: 8px;
+    padding: 4px 8px;
+}
+
+#signIn span{
+    color: #E6E6E6;
+    font-size: 14px;
+    line-height: 20px;
+    height: 32px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: .2px;
+}
+
+.wholeWidthTrending{
+    display: flex;
+    width: 100%;
+    height: 55px;
+    justify-content: center;
+}
+
+#trending{
+    display: flex;
+    width: 90%;
+    padding-top: 32px;
+    justify-content: space-around;
+}
+
+.trendingItems{
+    border-left: 3px lightgray solid;
+    padding: 0px 8px;
+}
+
+#firstTrendingItem{
+    border-left: 3px white solid;
+}
+
+.trendingItems span{
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0;
+    color: #0c0c0c;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.trendingItems span:hover{
+    text-decoration: underline;
+}
+
+#wholeMain{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+#mainSection{
+    display: flex;
+    width: 90%;
+    margin-top: 32px;
+}
+
+.marginMainLeft{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+#leftMainSection{
+    display: flex;
+    width: 98%;  
+    flex-direction: column; 
+}
+/*
+#imgLeftMain{
+    width: 38%;
+    height: 313px
+}
+*/
+.marginMainMiddle{
+    display: flex;
+    width: 35%;
+    justify-content: center;
+}
+
+#middleMainSection{
+    display: flex;
+    width: 98%;  
+    flex-direction: column; 
+}
+.marginMainRigth{
+    display: flex;
+    width: 25%;
+    justify-content: center;
+}
+
+#rigthMainSection{
+    display: flex;
+    width: 98%;   
+    flex-direction: column;
+}
+
+#titleLeftMain h2{
+    font-size: 36px;
+    line-height: 38px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#titleLeftMain h2:hover{
+    text-decoration: underline;
+}
+
+#titleLeftMain{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 114px;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.secundaryTitleMain{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 26px;
+    font-weight: 700 !important;
+}
+
+.secundaryTitleMain span:hover{
+    text-decoration: underline;
+}
+
+.middleMainNew{
+    margin-top: 2%;
+}
+
+#middleMainSection > ul{
+    margin-left: 3%;
+    padding: 0px;
+}
+
+.middleMainNew span, .rigthMainNew span{
+    color: #0c0c0c;
+    font-size: 16px;
+    letter-spacing: .5px;
+    line-height: 22px;  
+}
+
+.rigthMainNew{
+    margin-top: 5%;
+    padding-bottom: 5%;
+    border-bottom: #E6E6E6 1px solid;
+}
+.rigthMainNew:hover{
+    text-decoration: underline;
+}
